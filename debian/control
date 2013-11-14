@@ -1,0 +1,12 @@
+Source: ros-groovy-roswww
+Section: misc
+Priority: extra
+Maintainer: Jihoon Lee <jihoonl@yujinrobot.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/roswww
+Standards-Version: 3.9.2
+
+Package: ros-groovy-roswww
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-rospy
+Description: roswww package
