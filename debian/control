@@ -1,0 +1,12 @@
+Source: ros-groovy-roswww-pkg
+Section: misc
+Priority: extra
+Maintainer: Isaac Isao Saito <130s@lateeye.net>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/roswww_pkg
+Standards-Version: 3.9.2
+
+Package: ros-groovy-roswww-pkg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-roswww, ros-groovy-roswww-pack
+Description: roswww_pkg metapackage provides instant web server for ROS application. These packages are forked from this repository (consented here).
